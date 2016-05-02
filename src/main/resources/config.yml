@@ -1,0 +1,27 @@
+#Support With Color Code → "&" or "§", you also can use "<player>" to express the name of the Player
+#支持使用颜色代码 → "&" 或 "§" ,你也可以使用"<player>"来代表登录的玩家的名字
+
+JoinMessage:
+ - "&3<player> joined Server"
+ - "&3<player> join"
+FirstJoinMessage:
+ - "&2<player> first joined Server"
+LeaveMessage:
+ - "&1<player> leaved"
+SpecialJoinMessage:
+ message.op: "&4OP <player> joined Server!"
+ message.builder: "&4Builider <player> joined Server"
+SpecialLeaveMessage:
+ message.op: "&5OP <player> leaved Server!"
+ message.builder: "&5Builider <player> leaved Server!"
+
+Effect:
+ Join:
+ FirstJoin:
+ Leave:
+
+EffectAble:
+ - "Join"
+ - "FirstJoin"
+ - "Leave"
+Version: 1

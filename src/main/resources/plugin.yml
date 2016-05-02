@@ -1,0 +1,14 @@
+name: JoinMessage
+version: "0.1"
+api: ["1.0.0"]
+main: cn.mccraft.nukkit.JoinMessage
+author: Trychen
+commands:
+  joinmessage:
+    description: Reload JoinMessage
+    usage: "/joinmessage"
+    aliases: ["jm"]
+permission:
+  joinmessage.reload:
+    description: "Allows the user to reload JoinMessage Plugin"
+    default: false
