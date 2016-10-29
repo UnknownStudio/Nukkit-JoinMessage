@@ -12,7 +12,7 @@ import cn.nukkit.plugin.PluginBase;
 
 import java.util.*;
 
-public class JoinMessage extends PluginBase implements Listener {
+public final class JoinMessage extends PluginBase implements Listener {
     public static Random rand = new Random();
     private List<String> JOINMESSAGE = new ArrayList<String>();
     private List<String> FISTJOINMESSAGE = new ArrayList<String>();
